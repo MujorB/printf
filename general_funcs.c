@@ -23,18 +23,17 @@ int _strcmp(char *s1, char *s2)
 }
 
 /**
- * @brief string_length - get the length of a string
+ * string_length - get the length of a string
  * @string: string
- * 
+ *
  * Return: length in number
  */
-
 int string_length(char *string)
 {
-    int size;
+	int size;
 
-    for (size = 0; string[size] != '\0'; size++)
-        ;
-    
-    return (size);
+	for (size = 0; string[size] != '\0'; size++)
+		;
+
+	return (size);
 }
