@@ -16,11 +16,13 @@ are converted for out-put.
 .SH Conversion specifiers
 A character that specifies the type of conversion to be applied.
 
-.B The conversion specifiers and their meanings are:
+.B The conversion specifiers and their meanings arei:
+.TP
 .IP c
 .RS
 If no l modifier is present, the int argument is converted to an unsigned char, and the resulting character is written
 .RE
+.TP
 .IP s
 .RS
 The char * argument is expected to be a pointer to an array of character type (pointer to a string).
@@ -28,6 +30,7 @@ The char * argument is expected to be a pointer to an array of character type (p
 .RS
 Characters from the array are written up to (but not including) a terminating NUL character; if a precision is specified, no more than the specified are written, If a precision is given, no null character need be present; if the precision is not specified, or is greater than the size of the array, the array must contain a terminating NUL character.
 .RE
+.TP
 .IP "d, i"
 .RS
 The int argument is converted to signed decimal notation, The precision, if any, gives the minimum number of digits that must appear; if the converted value requires fewer digits, it is padded on the left with zeros.  The default precision is 1. When 0 is printed with an explicit precision 0, the output is empty.
@@ -36,12 +39,5 @@ The int argument is converted to signed decimal notation, The precision, if any,
 These functions return the number of characters printed (not including the trailing `\0' used to end output to strings), These functions return a negative value if an error occurs.
 .SH BUGS
 The _printf fuction in this program is still under development as my partner and I are yet to handle other specifier types, more updates would be included with time going forward
-
-.SH OPTIONS
-.IP -d
-disable syntax highlighting
-.IP -e
-enable syntax highlighting
-.IP "-f filename"
-Specifies the file you want to edit. This option must be given with the
-.BR " -e " "or the " "-d " option.
+.SH NOTES
+A Project by Bright Mujor and Innocent Chukwoemeka for contribution you can reach us on mujorb@gmail.com
