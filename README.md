@@ -43,12 +43,6 @@ Write a function that produces output according to a format.
 -- ``r``  
 -- ``u``  
 -- ``%``  
--- ``d``  
--- ``i``  
--- ``x``  
--- ``X``  
--- ``r``  
--- ``u``
 
  -[x] **Education is when you read the fine print. Experience is what you get if you don't**
 Handle the following conversion specifiers:
