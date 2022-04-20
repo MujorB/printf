@@ -1,6 +1,8 @@
 # Printf.  
 ````
-int printf ( const char * format, ... );
+
+< int printf ( const char * format, ... );
+
 ````  
 First group project at ALX SE programme, which consists of replicating the **[printf (3)](http://man7.org/linux/man-pages/man3/printf.3.html)** function of language c, calling it this way **_printf.**  
 This function is part of the standard library **<cstdio>** and to use it we must specify the header file **<stdio.h>**.  
