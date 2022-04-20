@@ -36,28 +36,24 @@ Write a function that produces output according to a format.
 - format is a character string. The format string is composed of zero or more directives. See man 3 printf for more detail. You need to handle the following conversion specifiers:  
 -- ``c``  
 -- ``s``  
-<<<<<<< HEAD
--- ``%``  
 -- ``d``  
 -- ``i``  
 -- ``x``  
 -- ``X``  
 -- ``r``  
 -- ``u``  
-=======
 -- ``%``  
 -- ``d``  
 -- ``i``  
 -- ``x``  
 -- ``X``  
 -- ``r``  
--- ``u``  
->>>>>>> main
+-- ``u``
 
  -[x] **Education is when you read the fine print. Experience is what you get if you don't**
 Handle the following conversion specifiers:
 -- ``d``
---``i``  
+-- ``i``  
 ## Functions Used.  
 ````c
 int _putchar(char c); /*writes the character c to stdout */
