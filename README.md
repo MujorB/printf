@@ -45,13 +45,13 @@ Write a function that produces output according to a format.
 -- ``r``  
 -- ``u``  
 =======
---  ``%``  
+-- ``%``  
 -- ``d``  
 -- ``i``  
 -- ``x``  
---``X``  
---``r``  
---``u``  
+-- ``X``  
+-- ``r``  
+-- ``u``  
 >>>>>>> main
 
  -[x] **Education is when you read the fine print. Experience is what you get if you don't**

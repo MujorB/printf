@@ -1,0 +1,43 @@
+.TH _printf 3 " 17 04 2022" " version 1.0" "ALX  Printf Project Manual"
+.SH NAME
+_printf - function in the C progrmming language used to format text to stdout
+.SH SYNOPSIS
+.B #include <stdio.h>
+
+.B int "main.h"
+
+.B _printf(const char *format, ...)
+.SH DESCRIPTION
+.I _printf()
+function helps format string to the stdout, standard output stream.
+These functions write the output under the control of a format string that specifies how subsequent argument (or arguments) accessed via the variable-length argument facilities of 
+.B stdarg(3)) 
+are converted for out-put.
+.SH Conversion specifiers
+A character that specifies the type of conversion to be applied.
+
+.B The conversion specifiers and their meanings arei:
+.TP
+.IP c
+.RS
+If no l modifier is present, the int argument is converted to an unsigned char, and the resulting character is written
+.RE
+.TP
+.IP s
+.RS
+The char * argument is expected to be a pointer to an array of character type (pointer to a string).
+.RE
+.RS
+Characters from the array are written up to (but not including) a terminating NUL character; if a precision is specified, no more than the specified are written, If a precision is given, no null character need be present; if the precision is not specified, or is greater than the size of the array, the array must contain a terminating NUL character.
+.RE
+.TP
+.IP "d, i"
+.RS
+The int argument is converted to signed decimal notation, The precision, if any, gives the minimum number of digits that must appear; if the converted value requires fewer digits, it is padded on the left with zeros.  The default precision is 1. When 0 is printed with an explicit precision 0, the output is empty.
+.RA
+.SH RETURN VALUE
+These functions return the number of characters printed (not including the trailing `\0' used to end output to strings), These functions return a negative value if an error occurs.
+.SH BUGS
+The _printf fuction in this program is still under development as my partner and I are yet to handle other specifier types, more updates would be included with time going forward
+.SH NOTES
+A Project by Bright Mujor and Innocent Chukwoemeka for contribution you can reach us on mujorb@gmail.com
