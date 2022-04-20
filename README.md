@@ -72,18 +72,18 @@ In the ``main.c`` file, use the ``_printf`` function like so:
  */
 int main(void)
 {
-
+	num = 1;
 	char *string;
 
 	string = "The ALX _printf project"
-	_printf("%s is the sprint one first project\n", string);
+	_printf("%s is the sprint %d first project\n", string, num);
 	return (0);
 }
 ```
 ```{bash}
 linux>$  gcc -Wall -Werror -Wextra -pedantic *.c -o run_program
 linux>$  ./run_program
-The ALX _printf project
+The ALX _printf project is the sprint 1 first project
 linux>$
 ```
 ## Contributors
