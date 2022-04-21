@@ -10,8 +10,8 @@ _printf - function in the C progrmming language used to format text to stdout
 .SH DESCRIPTION
 .I _printf()
 function helps format string to the stdout, standard output stream.
-These functions write the output under the control of a format string that specifies how subsequent argument (or arguments) accessed via the variable-length argument facilities of 
-.B stdarg(3)) 
+These functions write the output under the control of a format string that specifies how subsequent argument (or arguments) accessed via the variable-length argument facilities of
+.B stdarg(3))
 are converted for out-put.
 .SH Conversion specifiers
 A character that specifies the type of conversion to be applied.
