@@ -37,4 +37,5 @@ int print_bin(va_list b)
 		return (1);
 	}
 	return (count);
+
 }

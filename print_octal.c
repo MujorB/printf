@@ -38,4 +38,5 @@ int print_octal(va_list o)
 		return (1);
 	}
 	return (count);
+
 }

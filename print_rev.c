@@ -20,4 +20,5 @@ int print_rev(va_list r)
 		j++;
 	}
 	return (j);
+
 }

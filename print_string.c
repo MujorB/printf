@@ -19,4 +19,5 @@ int print_string(va_list s)
 		i++;
 	}
 	return (i);
+
 }
